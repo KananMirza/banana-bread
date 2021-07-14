@@ -1,0 +1,206 @@
+* {
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    padding-left: 10px;
+    width: 150px;
+    height: auto;
+}
+
+nav p {
+    transform: translateY(60%);
+    margin-right: 40px;
+    float: right;
+    padding: 5px 20px;
+
+    color: black;
+}
+
+nav p:hover {
+    color: #38A84A;
+    transition: 0.5s;
+    border-bottom: 1px solid green;
+}
+
+
+.container {
+    height: 697px;
+    display: flex;
+}
+
+.image {
+    width: 70%;
+    background-image: url(https://www.hdimages.pics/images/quotes/english/general/bread-and-glass-vase-on-52650-307846.jpg);
+    background-size: cover;
+
+
+
+}
+
+.text {
+
+    width: 30%;
+    background-color: rgb(242, 239, 239);
+
+    box-sizing: border-box;
+}
+
+.content {
+
+    width: 80%;
+    margin: auto;
+}
+
+.date {
+    transform: translateY(100%);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.time {
+    padding-left: 20px;
+}
+
+.recipe-text {
+    margin-top: 30%;
+}
+
+.author {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.author:hover{
+    color: green;
+    transition: 0.3s;
+}
+
+.btn {
+
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.share {
+    margin-top: 160px;
+    padding-right: 20px;
+    float: right;
+    font-size: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.bg-green {
+    width: 30%;
+    height: 70%;
+    float: left;
+    margin-top: 170px;
+    color: #F6F9F6;
+    background-color: #398326;
+}
+
+.bg-green p {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 45px;
+
+}
+
+.recipe {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 90%;
+
+}
+
+.bg-green span {
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+.fa-pinterest:hover,
+.fa-instagram:hover {
+    color: red;
+    transition: 0.5s;
+    transform: scale(1.6);
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+    transition: 0.5s;
+    transform: scale(1.6);
+}
+
+@media only screen and (max-width: 900px) {
+    .bg-green span {
+        display: none;
+
+    }
+
+    .bg-green {
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .date p {
+        display: block;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .bg-green {
+        color: white;
+        height: 100%;
+        font-weight: bold;
+    }
+
+    nav p {
+        display: block;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .bg-green p {
+        margin-top: 20px;
+    }
+
+    .share {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1485px) {
+    .bg-green span {
+        display: none;
+
+    }
+
+}
